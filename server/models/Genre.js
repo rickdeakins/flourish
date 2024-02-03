@@ -5,6 +5,6 @@ const genreSchema = new Schema({
  
 });
 
-const Tech = model('Genre', genreSchema);
+const Genre = model('Genre', genreSchema);
 
 module.exports = Genre;
