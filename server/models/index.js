@@ -1,4 +1,4 @@
 const Artists = require('./Artists');
-const Genre = require('Genre');
+const Genre = require('./Genre');
 
 module.exports = { Artists, Genre };
