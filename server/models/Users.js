@@ -1,8 +1,9 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
+// const artistSchema = require('./Artists')
 
 const userSchema = new Schema({
-  name: {
+  username: {
     type: String,
     required: true,
     unique: true,
@@ -19,12 +20,12 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  savedArtists: [artistSchema],
+  // savedArtists: [artistSchema],
 },
 {
-  toJSON: {
-    virtuals: true,
-  },
+  // toJSON: {
+  //   virtuals: true,
+  // },
 });
 
 // set up pre-save middleware to create password
@@ -38,15 +39,15 @@ userSchema.pre('save', async function (next) {
 });
 
 // compare the incoming password with the hashed password
-profileSchema.methods.isCorrectPassword = async function (password) {
+userSchema.methods.isCorrectPassword = async function (password) {
   return bcrypt.compare(password, this.password);
 };
 
-userSchema.virtual('artistCount').get(function () {
-    return this.savedArtists.length;
-  });
+// userSchema.virtual('artistCount').get(function () {
+//     return this.savedArtists.length;
+//   });
 
-const User = model('User', userSchema);
+const Users = model('User', userSchema);
 
-module.exports = User;
+module.exports = Users;
 
