@@ -27,6 +27,7 @@ type Users {
   }
   type Query {
     genres: [Genre]
+    artist: Artist
     me: Users
   }
 
