@@ -1,0 +1,11 @@
+[
+    {
+      "name":"Sarah Leder",
+      "description": "Abstract artist",
+      "city": "Columbus",
+      "state":"Ohio",
+      "images":"../../client/art/Sarah/Sarah6",
+      "email":"Trinity16201@gmail.com",
+      "genre": "Abstract"
+    }
+]
