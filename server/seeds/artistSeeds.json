@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Sarah Leder",
+    "description": "Sarah is an artist with using texture in paintings to showcase textures we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Sarah/Sarah6",
+    "email": "Trinity16201@gmail.com",
+    "genre": "Abstract"
+  },
+  {
+    "name": "Onion Runyon",
+    "description": "Onion is an artist who enjoys using watercolor as her main medium for her pieces. Landscape and humor are her favorite variations.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Onion/Onion5",
+    "email": "Onion16201@gmail.com",
+    "genre": "Landscape"
+  },
+  {
+    "name": "Hilary Witt",
+    "description": "Hilary creates expressive pieces using various painting mediums. She is inspired by her family and friends as part of her center stage.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Hilary/Hilary3",
+    "email": "Hilary16201@gmail.com",
+    "genre": "Impressionism"
+  }
+]

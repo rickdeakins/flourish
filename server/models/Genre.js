@@ -9,7 +9,8 @@ const genreSchema = new Schema(
     artists: [
         {
           type: Schema.Types.ObjectId,
-          ref: 'Artists'
+          ref: 'Artists',
+          required: true,
         }
     ]
 });
