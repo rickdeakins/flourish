@@ -20,9 +20,7 @@ db.once("open", async () => {
       const user = await Users.findOneAndUpdate(
         { username: userAuthor },
         {
-          $addToSet: {
-            users: _id,
-          },
+          $addToSet: {users: _id,},
         }
       );
     }
