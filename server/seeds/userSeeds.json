@@ -1,7 +1,7 @@
 [
     {
-      "username": "Brian Kernighan",
-      "email": "bkernighan@techfriends.dev",
+      "username": "User1",
+      "email": "User1@gmail.com",
       "password": "password01"
     },
     {
@@ -18,21 +18,6 @@
       "username": "Kent Beck",
       "email": "kbeck@techfriends.dev",
       "password": "password04"
-    },
-    {
-      "username": "Edward V. Berard",
-      "email": "evberard@techfriends.dev",
-      "password": "password05"
-    },
-    {
-      "username": "Alan Kay",
-      "email": "akay@techfriends.dev",
-      "password": "password06"
-    },
-    {
-      "username": "C.A.R. Hoare",
-      "email": "choare@techfriends.dev",
-      "password": "password07"
     }
   ]
   

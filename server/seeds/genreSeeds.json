@@ -2,5 +2,21 @@
     {
         "genre":"Abstract",
         "artists":["Sarah Leder"]
+    },
+    {
+        "genre":"Landscape",
+        "artists":["Onion Runyon"]
+    },
+    {
+        "genre":"Impressionism",
+        "artists":["Hilary Witt"]
+    },
+    {
+        "genre":"Photography",
+        "artists":["Pam Agrast"]
+    },
+    {
+        "genre":"Realism",
+        "artists":["Pam Agrast"]
     }
 ]
