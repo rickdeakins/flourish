@@ -1,24 +1,37 @@
 const { Artists, Genre, Users } = require('../models');
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
-        genres: async (parent, { genre }) => {
-            return Genre.find(genre).sort({ createdAt: -1 });
-          },
-        artists: async (parent, { artists }) => {
-            return Artists.findOne({ _id: context.artists._id }).sort({ createdAt: -1 });
-          },
+      genresWithArtists: async () => {
+        try {
+          const genresWithArtists = await Genre.find().populate('artists');
+          return genresWithArtists;
+        } catch (error) {
+          console.error(error);
+          throw error;
+        }
+      },
+      artistById: async (_, { artistId }) => {
+        try {
+          const artist = await Artists.findById(artistId);
+          return artist;
+        } catch (error) {
+          console.error(error);
+          throw error;
+        }
+      },
         me: async (parent, args, context) => {
-          if (context.user) {
-            return Users.findOne({ _id: context.user._id }).select('-__v -password');
-          }
-          throw AuthenticationError;
-        },
+            if (context.user) {
+              return Users.findOne({ _id: context.user._id }).select('-__v -password');
+            }
+            throw new AuthenticationError('You must be logged in');
+          },
       },
     
       Mutation: {
-        addUser: async (parent, { username, email, password }) => {
-          const user = await Users.create({ username, email, password });
+        addUser: async (parent, { email, password }) => {
+          const user = await Users.create({ email, password });
           const token = signToken(user);
           return { token, user };
         },
