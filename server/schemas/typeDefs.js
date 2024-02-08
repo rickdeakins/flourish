@@ -1,12 +1,12 @@
 const typeDefs = `
 type Users {
-    _id: ID
+    _id: ID!
     username: String!
     email: String!
     password: String!
   }
-  type Artist {
-    _id: ID
+  type Artists {
+    _id: ID!
     name: String!
     description: String!
     city: String!
@@ -14,20 +14,22 @@ type Users {
     images: [String]!
     website: String!
     email: String!
-    genre: [String]!
+    genre: String!
+    genreId: String!
   }
   type Genre {
-    _id: ID
+    _id: ID!
     genre: String!
-    artists: [String]!
+    genreId: String!
   }
+  
   type Auth {
     token: ID!
     user: Users
   }
   type Query {
     genres: [Genre]
-    artist: Artist
+    artists: Artists
     me: Users
   }
 

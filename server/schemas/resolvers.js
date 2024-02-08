@@ -5,8 +5,8 @@ const resolvers = {
         genres: async (parent, { genre }) => {
             return Genre.find(genre).sort({ createdAt: -1 });
           },
-        artist: async (parent, { artist }) => {
-            return Artists.findOne({ _id: context.artist._id }).sort({ createdAt: -1 });
+        artists: async (parent, { artists }) => {
+            return Artists.findOne({ _id: context.artists._id }).sort({ createdAt: -1 });
           },
         me: async (parent, args, context) => {
           if (context.user) {
