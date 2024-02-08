@@ -1,22 +1,22 @@
 [
     {
         "genre":"Abstract",
-        "artists":["Sarah Leder"]
+        "genreId": "1"
     },
     {
         "genre":"Landscape",
-        "artists":["Onion Runyon"]
+        "genreId": "2"
     },
     {
         "genre":"Impressionism",
-        "artists":["Hilary Witt"]
+        "genreId": "3"
     },
     {
         "genre":"Photography",
-        "artists":["Pam Agrast"]
+        "genreId": "4"
     },
     {
         "genre":"Realism",
-        "artists":["Pam Agrast"]
+        "genreId": "5"
     }
 ]

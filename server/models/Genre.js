@@ -1,4 +1,5 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, default: mongoose } = require('mongoose');
+
 
 const genreSchema = new Schema(
     {
@@ -6,13 +7,18 @@ const genreSchema = new Schema(
         type: String,
         required: true,
     },
+    genreId: { 
+        type: String, 
+        required: true, 
+        unique: true 
+    },
     artists: [
         {
           type: Schema.Types.ObjectId,
           ref: 'Artists',
-          required: true,
-        }
-    ]
+        },
+      ],
+    
 });
 
 const Genre = model('Genre', genreSchema);

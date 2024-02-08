@@ -1,38 +1,40 @@
 const typeDefs = `
 type Users {
-    _id: ID
-    username: String!
+    _id: ID!
     email: String!
     password: String!
   }
-  type Artist {
-    _id: ID
+  type Artists {
+    _id: ID!
     name: String!
     description: String!
     city: String!
     state: String!
     images: [String]!
-    website: String!
+    website: String
     email: String!
-    genre: [String]!
+    genre: String!
+    genreId: String!
   }
   type Genre {
-    _id: ID
+    _id: ID!
     genre: String!
-    artists: [String]!
+    genreId: String!
+    artists: [Artists]
   }
+
   type Auth {
     token: ID!
     user: Users
   }
   type Query {
-    genres: [Genre]
-    artist: Artist
+    genresWithArtists: [Genre]
+    artistById(artistId: ID!): Artists
     me: Users
   }
 
   type Mutation {
-    addUser(username: String!, email: String!, password: String!): Auth
+    addUser(email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
   }
 `;

@@ -6,7 +6,8 @@
     "state": "Ohio",
     "images": "../../client/art/Sarah/Sarah6",
     "email": "Trinity16201@gmail.com",
-    "genre": "Abstract"
+    "genre": "Abstract",
+    "genreId": "1"
   },
   {
     "name": "Onion Runyon",
@@ -15,7 +16,8 @@
     "state": "Ohio",
     "images": "../../client/art/Onion/Onion5",
     "email": "Onion16201@gmail.com",
-    "genre": "Landscape"
+    "genre": "Landscape",
+    "genreId": "2"
   },
   {
     "name": "Hilary Witt",
@@ -24,6 +26,37 @@
     "state": "Ohio",
     "images": "../../client/art/Hilary/Hilary3",
     "email": "Hilary16201@gmail.com",
-    "genre": "Impressionism"
+    "genre": "Impressionism",
+    "genreId": "3"
+  },
+  {
+    "name": "Debby Cundiff",
+    "description": "Debby Cundiff has been creating realistic portraits and landscapes for over 50 years.  She commonly uses oil paint, but has also done work in colored pencil.  Currently, she has been working in lapidairy and metal smithing.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Debby/Debby1",
+    "email": "Debby@gmail.com",
+    "genre": "Realism",
+    "genreId": "5"
+  },
+  {
+    "name": "Pamela Agrast",
+    "description": "Pamela doesn't stay with one medium for long.  She loves to learn and explore different mediums and materials.  She commonly is inspired by nature and life events.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Pam/Pam4",
+    "email": "agrastp@gmail.com",
+    "genre": "Realism",
+    "genreId": "5"
+  },
+  {
+    "name": "Jean Ver Hulst",
+    "description": "f",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": "../../client/art/Pam/Pam4",
+    "email": "agrastp@gmail.com",
+    "genre": "Realism",
+    "genreId": "5"
   }
 ]

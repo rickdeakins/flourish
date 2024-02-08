@@ -29,12 +29,14 @@ const artistSchema = new Schema(
             type: String,
             required: true
         },
-        genre: [
-            {
-                type: Schema.Types.ObjectId,
-                ref: 'Genre'
-            }
-        ]
+        genre: {
+            type: String,
+            required: true 
+        },
+        genreId: { 
+            type: String,
+            required: true
+        }
     });
 
 const Artists = model('Artists', artistSchema);
