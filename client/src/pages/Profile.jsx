@@ -1,29 +1,43 @@
-// import { useQuery } from '@apollo/client';
+import React from 'react';
+import { useQuery } from '@apollo/client';
+import ProfileList from '../components/ProfileList';
+import { QUERY_PROFILES } from '../utils/queries';
 
-// import ProfileList from '../components/ProfileList';
+const Home = () => {
+  const { loading, data } = useQuery(QUERY_PROFILES);
+  const profiles = data?.profiles || [];
 
-// import { QUERY_PROFILES } from '../utils/queries';
+  return (
+    <main>
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-10 my-3">
+            {loading ? (
+              <div>Loading...</div>
+            ) : (
+              <ProfileList profiles={profiles} title="Artists" />
+            )}
+          </div>
+        </div>
+      </div>
+      {/* Second Container */}
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-10 my-3">
+            {/* Add your content for the second container here */}
+          </div>
+        </div>
+      </div>
+      {/* Third Container */}
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-10 my-3">
+            {/* Add your content for the third container here */}
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+};
 
-// const Home = () => {
-//   const { loading, data } = useQuery(QUERY_PROFILES);
-//   const profiles = data?.profiles || [];
-
-//   return (
-//     <main>
-//       <div className="flex-row justify-center">
-//         <div className="col-12 col-md-10 my-3">
-//           {loading ? (
-//             <div>Loading...</div>
-//           ) : (
-//             <ProfileList
-//               profiles={profiles}
-//               title="Here's the current roster of friends..."
-//             />
-//           )}
-//         </div>
-//       </div>
-//     </main>
-//   );
-// };
-
-// export default Profile;
+export default Home;
