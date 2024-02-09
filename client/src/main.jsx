@@ -2,13 +2,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from './App.jsx'
-import Home from './pages/Home';
-// import Profile from './pages/Profile';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
+import Home from './pages/Home.jsx';
+// import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
 
-import './index.css'
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const router = createBrowserRouter([
   {
@@ -19,16 +18,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />
-      }, {
-        path: '/login',
-        element: <Login />
-      }, {
-        path: '/signup',
-        element: <Signup />
-      }, 
+      }
       // {
-      //   path: '/profiles/:profileId',
-      //   element: <Profile />
+      //   path: '/artists/:artistId',
+      //   element: <Artists />
       // }
     ]
   },
