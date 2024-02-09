@@ -3,7 +3,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from './App.jsx'
 import Home from './pages/Home.jsx';
-// import Artists from './pages/Artists';
+// import Profiles from './pages/Profiles';
+import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
 
 import './index.css';
@@ -18,11 +19,15 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />
-      }
+      },
       // {
-      //   path: '/artists/:artistId',
-      //   element: <Artists />
-      // }
+      //   path: '/profiles',
+      //   element: <Profiles />
+      // },
+      {
+        path: '/profiles/:artistId',
+        element: < Artists />
+      }
     ]
   },
 ]);
