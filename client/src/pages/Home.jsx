@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import {  Row, Col, Container } from 'react-bootstrap';
 import Login from '../components/Login';
 import Signup from '../components/Signup';
 import CustomButton from '../components/CustomButton';
