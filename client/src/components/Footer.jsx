@@ -1,23 +1,15 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
-  return (
-    <footer className="w-100 mt-auto text-dark p-4">
-      <div className="container text-center mb-5">
-        {location.pathname !== '/' && (
-          <button
-            className="btn btn-dark mb-3"
-            onClick={() => navigate(-1)}
-          >
-            &larr; Go Back
-          </button>
-        )}
-        <h4>&copy; {new Date().getFullYear()} - Flourish</h4>
-      </div>
-    </footer>
-  );
-};
+
+  return(
+<div id="footer" className="text-secondary py-1 fixed-bottom" style={{ height: '75px', backgroundColor: 'rgba(180, 180, 180, .10)' }}>
+      <div id="text-secondary" style={{ margin: '20px'}}>
+      <p>© 2024 flourish - a visual artist showcase</p>
+    </div>  
+    </div>  
+  )
+}
 
 export default Footer;
