@@ -1,6 +1,5 @@
 import './App.css';
 
-
 import {
   ApolloClient,
   InMemoryCache,
@@ -12,6 +11,8 @@ import { Outlet } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import Navbar from './components/Navbar.jsx'
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -43,6 +44,7 @@ function App() {
     <ApolloProvider client={client}>
       <div className="flex-column justify-flex-start min-100-vh">
         <Header />
+        <Navbar/>
         <div className="container">
           <Outlet />
         </div>
