@@ -3,13 +3,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
 
-  return(
-<div id="footer" className="text-secondary py-1 fixed-bottom" style={{ height: '75px', backgroundColor: 'rgba(180, 180, 180, .10)' }}>
-      <div id="text-secondary" style={{ margin: '20px'}}>
-      <p>© 2024 flourish - a visual artist showcase</p>
-    </div>  
-    </div>  
-  )
+  return (
+    <div id="footer" className="py-4 fixed-bottom margin-right text-secondary" style={{ height: '60px', backgroundColor: '#F2F2F2', marginTop: '10px'}}>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <p>© 2024 <img src="./assets/misc/logotemp.svg"  alt="logo" style={{ width: '70px', height: 'auto' }} /> | a visual artist showcase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
