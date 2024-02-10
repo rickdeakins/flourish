@@ -1,6 +1,21 @@
+body{
+    margin: 5px;
+    padding: 20px;
+}
+
 #artist {
  background-color: rgb(232, 229, 229);
  width: 100%;
  min-height: 600px;
  border-radius: 30px 30px 30px 30px;
 }
+
+.navbar {
+    position: relative;
+    z-index: 100;
+  }
+  
+  .header {
+    position: relative;
+    z-index: 50;
+  }

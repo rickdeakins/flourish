@@ -13,7 +13,7 @@ const artistContainerStyle= {
 };
 
 const imageContainerStyle= {
-  marginTop: "120px",
+  marginTop: '120px',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   minHeight: '50vh',
@@ -21,7 +21,6 @@ const imageContainerStyle= {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  marginTop: '120px',
   width: '70%',
   position: 'relative',
   border: '4px solid',
