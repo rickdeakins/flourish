@@ -8,10 +8,11 @@ query GenresWithArtists {
         name
       }
       genre
+      genreId
     }
   }
   `;
-
+ 
   export const QUERY_SINGLE_ARTIST = gql`
   query GetArtistById($artistId: ID!) {
     artistById(artistId: $artistId) {
