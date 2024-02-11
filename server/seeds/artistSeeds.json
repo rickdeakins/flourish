@@ -58,5 +58,135 @@
     "email": "agrastp@gmail.com",
     "genre": "Realism",
     "genreId": "5"
+  },
+  {
+    "name": "Chantelle Berry",
+    "description": "",
+    "city": "Powell",
+    "state": "Ohio",
+    "images": ["../assets/art/Chantelle/Chan1.png", "../assets/art/Chantelle/Chan2.png", "../assets/art/Chantelle/Chan3.png", "../assets/art/Chantelle/Chan4.png"],
+    "email": "berry_chantelle@yahoo.com",
+    "genre": "Abstract",
+    "genreId": "1"
+  }, 
+  {
+    "name": "David Agrast",
+    "description": "Covid brought about many hobbies for David.  One of them became bird watching, which soon became bird photography.  These small animals are hard to capture, but a treasure to find.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": ["../assets/art/David/David1.jpg", "../assets/art/David/David2.jpg", "../assets/art/David/David3.JPG", "../assets/art/David/David4.jpg"],
+    "email": "agrastd@gmail.com",
+    "genre": "Photography",
+    "genreId": "4"
+  },
+  {
+    "name": "Halley Ween",
+    "description": "Photography allows us to capture a small moment in time.  Halle loves to capture the sweet moments that nature offers; from flowers to glaciers.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": ["../assets/art/Halley/Halley1.JPG", "../assets/art/Halley/Halley2.png", "../assets/art/Halley/Halley3.jpg", "../assets/art/Halley/Halley4.JPG"],
+    "email": "agrastp@gmail.com",
+    "genre": "Photography",
+    "genreId": "4"
+  },
+  {
+    "name": "Julian Agrast",
+    "description": "Nature is ever changing and evolving.  Through images, Julian likes to capture the now in nature.",
+    "city": "Columbus",
+    "state": "Ohio",
+    "images": ["../assets/art/Julian/Julian1.jpg", "../assets/art/Julian/Julian2.jpg", "../assets/art/Julian/Julian3.JPG", "../assets/art/Julian/Julian4.JPG"],
+    "email": "agrastd@gmail.com",
+    "genre": "Photography",
+    "genreId": "4"
+  },
+  {
+    "name": "Ashley Smith",
+    "description": "Ashley loves to play with color and texts.  Her inspiration growing up was the author and illustrator, Eric Carle, who layers paper to create unique backgrounds.  From recreation, Ashley grew to create her own style of art.",
+    "city": "San Diego",
+    "state": "California",
+    "images": ["../assets/art/Sarah/Sarah5.jpg", "../assets/art/Sarah/Sarah6.jpg", "../assets/art/Sarah/Sarah7.jpg", "../assets/art/Sarah/Sarah8.jpg"],
+    "email": "ashleyArt@yahoo.com",
+    "genre": "Abstract",
+    "genreId": "1"
+  },
+  {
+    "name": "John Jacobs",
+    "description": "Art has always been a powerful way for John to express himself.  After retiring from the military, he found solice from creating abstract art that gave him the freedom to defy boundaries.",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "images": ["../assets/art/John/John1.jpg", "../assets/art/John/John2.jpg", "../assets/art/John/John3.jpg", "../assets/art/John/John4.jpg"],
+    "email": "jjAbstracts@gmail.com",
+    "genre": "Abstract",
+    "genreId": "1"
+  }, 
+  {
+    "name": "Todd Jones",
+    "description": "Todd spent his childhood going from art exhibit to art exhibit. He found he was found a connection with the artists who depicted real life events.  As he became a father, he started to capture his life through his art.",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "images": ["../assets/art/", "../assets/art/", "../assets/art/", "../assets/art/"],
+    "email": "jonestudio@yahoo.com",
+    "genre": "Realism",
+    "genreId": "5"
+  },
+  {
+    "name": "Claude Monet",
+    "description": "Claude Monet was a founder of French impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air landscape painting. ",
+    "city": "Paris",
+    "state": "France",
+    "images": ["../assets/art/Claude/Claude1.jpg", "../assets/art/Claude/Claude2.jpg", "../assets/art/Claude/Claude3.jpg", "../assets/art/Claude/Claude4.jpg"],
+    "email": "monet@gmail.com", 
+    "genre": "Impressionism",
+    "genreId": "3"
+  },
+  {
+    "name": "Vincent van Gogh",
+    "description": "Vincent Willem van Gogh was a post-Impressionist painter of Dutch origin whose work, notable for its rough beauty, emotional honesty and bold color, had a far-reaching influence on 20th-century art.",
+    "city": "Zundert",
+    "state": "Netherlands",
+    "images": ["../assets/art/Vincent1.jpg", "../assets/art/Vincent2.jpg", "../assets/art/Vincent3.jpg", "../assets/art/Vincent4.jpg"],
+    "email": "Gogh@gmail.com", 
+    "genre": "Impressionism",
+    "genreId": "3"
+  },
+  {
+    "name": "Edouard Manet",
+    "description": "Édouard Manet was a French painter. One of the first 19th-century artists to approach modern and postmodern-life subjects, he was a pivotal figure in the transition from Realism to Impressionism.",
+    "city": "Paris",
+    "state": "France",
+    "images": ["../assets/art/Edouard/Edouard1.jpg", "../assets/art/Edouard/Edouard2.jpg", "../assets/art/Edouard/Edouard3.jpg", "../assets/art/Edouard/Edouard4.jpg"],
+    "email": "Manet@yahoo.com", 
+    "genre": "Impressionism",
+    "genreId": "3"
+  },
+  {
+    "name": "Archer Greene",
+    "description": "Archer paints from his photos he takes from his travels.  He found it was the best way to depict the images he sees in his life adventures.",
+    "city": "Chicago",
+    "state": "Illinois",
+    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
+    "email": "ArcherGreene@gmail.com",
+    "genre": "Landscape",
+    "genreId": "2"
+  },
+  {
+    "name": "Anita Subu",
+    "description": "Anita learned to love art during her childhood travels to India.  She didn't have much to do on the airplane, but to draw.  As she grew older, she found other mediums even more interesting than the everyday crayon.",
+    "city": "Houston",
+    "state": "Texas",
+    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
+    "email": "AnitaSubu@gmail.com",
+    "genre": "Landscape",
+    "genreId": "2"
+  },
+  {
+    "name": "Roger Reed",
+    "description": "Reed loves to look at all the colors and texture of a landscape.  He loves to explore the many colors in the sky to the textures of the vegetation",
+    "city": "Idaho Falls",
+    "state": "Idaho",
+    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
+    "email": "RReed@yahoo.com",
+    "genre": "Landscape",
+    "genreId": "2"
   }
 ]
