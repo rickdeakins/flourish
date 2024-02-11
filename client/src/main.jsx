@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx'
 import Home from './pages/Home.jsx';
 // import Profiles from './pages/Profiles';
+import About from './pages/About';
 import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
 
@@ -30,8 +31,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/profiles/:artistId',
-        element: < Artists />
-      }
+        element: <Artists />
+      },
+      {
+        path: '/about',
+        element: <About />
+      },
     ]
   },
 ]);
