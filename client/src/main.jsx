@@ -6,6 +6,11 @@ import Home from './pages/Home.jsx';
 // import Profiles from './pages/Profiles';
 import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
+
+
+import ContactPage from './pages/Contact.jsx';
+
+
 import './index.css';
 
 
@@ -19,10 +24,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />
       },
-      // {
-      //   path: '/profiles',
-      //   element: <Profiles />
-      // },
+      {
+        path: '/contact',
+        element: <ContactPage />
+      },
       {
         path: '/profiles/:artistId',
         element: < Artists />
