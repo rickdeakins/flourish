@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import displayImage from '../../assets/aboutpage.png';
+import displayImage from '../../assets/background.jpg';
 
 //Style Attributes
 const aboutContainerStyle = {
