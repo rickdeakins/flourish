@@ -6,9 +6,8 @@ import Home from './pages/Home.jsx';
 // import Profiles from './pages/Profiles';
 import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
-
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const router = createBrowserRouter([
   {

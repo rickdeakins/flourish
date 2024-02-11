@@ -15,7 +15,7 @@ body{
     z-index: 100;
   }
   
-  .header {
+.header {
     position: relative;
     z-index: 50;
   }
