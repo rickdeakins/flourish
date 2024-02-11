@@ -4,7 +4,7 @@
     "description": "Sarah is an artist with using texture in paintings to showcase textures we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Sarah/Sarah6",
+    "images": ["../assets/art/Sarah/Sarah1.jpg","../assets/art/Sarah/Sarah2.jpg","../assets/art/Sarah/Sarah3.jpg", "../assets/art/Sarah/Sarah4.jpg"],
     "email": "Trinity16201@gmail.com",
     "genre": "Abstract",
     "genreId": "1"
@@ -14,7 +14,7 @@
     "description": "Onion is an artist who enjoys using watercolor as her main medium for her pieces. Landscape and humor are her favorite variations.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Onion/Onion5",
+    "images": ["../assets/art/Onion/Onion5.jpg","../assets/art/Onion/Onion1.jpg", "../assets/art/Onion/Onion2.jpg", "../assets/art/Onion/Onion3.jpg"],
     "email": "Onion16201@gmail.com",
     "genre": "Landscape",
     "genreId": "2"
@@ -24,8 +24,8 @@
     "description": "Hilary creates expressive pieces using various painting mediums. She is inspired by her family and friends as part of her center stage.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Hilary/Hilary3",
-    "email": "Hilary16201@gmail.com",
+    "images": ["../assets/art/Hilary/Hilary1.png", "../assets/art/Hilary/Hilary2.jpg", "../assets/art/Hilary/Hilary3.jpg", "../assets/art/Hilary/Hilary4.jpg"],
+    "email": "Hilary16201@gmail.com", 
     "genre": "Impressionism",
     "genreId": "3"
   },
@@ -34,7 +34,7 @@
     "description": "Debby Cundiff has been creating realistic portraits and landscapes for over 50 years.  She commonly uses oil paint, but has also done work in colored pencil.  Currently, she has been working in lapidairy and metal smithing.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Debby/Debby1",
+    "images": ["../assets/art/Debby/Debby1.jpg","../assets/art/Debby/Debby2.jpg", "../assets/art/Debby/Debby3.jpg", "../assets/art/Debby/Debby4.jpg"],
     "email": "Debby@gmail.com",
     "genre": "Realism",
     "genreId": "5"
@@ -44,17 +44,17 @@
     "description": "Pamela doesn't stay with one medium for long.  She loves to learn and explore different mediums and materials.  She commonly is inspired by nature and life events.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Pam/Pam4",
+    "images": ["../assets/art/Pam/Pam1.jpg","../assets/art/Pam/Pam2.jpg","../assets/art/Pam/Pam3.jpg","../assets/art/Pam/Pam4.jpg"],
     "email": "agrastp@gmail.com",
     "genre": "Realism",
     "genreId": "5"
   },
   {
     "name": "Jean Ver Hulst",
-    "description": "f",
+    "description": "Jean started doing watercolor during the 2019 Covid Pandemic.  It was the one medium her professional artist mother said she could never master.  Through videos and exploration, Jean has been budding in the world of watercolor.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": "../../client/assets/art/Pam/Pam4",
+    "images": ["../assets/art/Jean/Jean1.jpg", "../assets/art/Jean/Jean2.jpg", "../assets/art/Jean/Jean3.jpg", "../assets/art/Jean/Jean4.jpg"],
     "email": "agrastp@gmail.com",
     "genre": "Realism",
     "genreId": "5"

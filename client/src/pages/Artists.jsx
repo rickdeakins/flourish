@@ -1,105 +1,125 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { QUERY_SINGLE_ARTIST } from '../utils/queries';
 
-const artistContainerStyle= {
-  height: "auto", 
-  marginTop:'105px', 
-  marginBottom:'5px', 
-  border: '0.5px solid gray', 
+const artistContainerStyle = {
+  height: 'auto',
+  marginTop: '105px',
+  marginBottom: '5px',
   backgroundColor: '#F2F2F2',
+  boxShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
+  width: '100%',
+  minHeight: '600px',
+  borderRadius: '30px 30px 30px 30px'
 };
 
-const imageContainerStyle= {
-  marginTop: '120px',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
-  minHeight: '50vh',
+const contactContainerStyle = {
+  minHeight: '120px',
+  width: 'auto',
+  height: 'auto',
+  marginTop: '100px',
+  backgroundColor: '#F2F2F2',
+  boxShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
+  borderRadius: '30px 30px 30px 30px',
+  bottom: '5px', 
+  right: '100px',  
+};
+
+const imageContainerStyle = {
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'center',
   alignItems: 'center',
-  width: '70%',
-  position: 'relative',
-  border: '4px solid',
+  paddingTop: '10px',
+  paddingBottom: '10px',
+  marginBottom: '20px',
+  marginTop: '100px',
 };
-
-const contactContainerStyle= {
-  minHeight:'120px',
-  width:'auto', 
-  height: "auto", 
-  marginTop:'135px', 
-  marginBottom:'5px', 
-  border: '0.5px solid gray', 
-  backgroundColor: '#F2F2F2',
-};
-
 
 const ProfilePage = () => {
-    const { artistId } = useParams();
-  
-    const { loading, error, data } = useQuery(QUERY_SINGLE_ARTIST, {
-      variables: { artistId: artistId },
-    });
-  
-    if (loading) {
-      return <div>Loading...</div>;
-    }
-  
-    if (error) {
-      console.error("Error loading artist:", error);
-      return <div>Error loading artist</div>;
-    }
-  
-    const artist = data?.artistById || {}; 
-  
+  const { artistId } = useParams();
+
+  const { loading, error, data } = useQuery(QUERY_SINGLE_ARTIST, {
+    variables: { artistId: artistId },
+  });
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    console.error('Error loading artist:', error);
+    return <div>Error loading artist</div>;
+  }
+
+  const artist = data?.artistById || {};
+
+  // Use slice to get the first four images
+  const firstFourImages = artist.images.slice(0, 4);
 
   return (
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3">
-            <div id= "artist" className="container" style={artistContainerStyle}>
-              <h1 className='p-4'>Artist:{artist.name}</h1>
-              <p className='m-3 text-start'><b>Location:</b> {artist.city}, {artist.state}</p>
-              <p className='m-3 text-start'><b>Genre:</b> {artist.genre}</p>
-              <p className='m-3 text-start'>About:{artist.description}</p>
-          
-            </div>
+    <div className="container text-center">
+      <div className="row">
+        <div className="col-md-3">
+          <div className="container" style={artistContainerStyle}>
+            <h1 className="p-4">{artist.name}</h1>
+            <p className="m-3 text-start">
+              <b>Location:</b> {artist.city}, {artist.state}
+            </p>
+            <p className="m-3 text-start">
+              <b>Genre:</b> {artist.genre}
+            </p>
+            <p className="m-3 text-start">{artist.description}</p>
           </div>
-  
-          <div className="col-md-7">
-            <div className="container" style={imageContainerStyle}>
-              {/* <p>Images:</p> */}
-              {/* {artist.images.map((image, index) => (
-                <img key={index} src={image} alt={`Image ${index}`} />
-              ))} */}
-            </div>
-          </div>
-  
-          <div className="col-md-2">
-            <div className="container" style={contactContainerStyle}>
-              <p style={{ margin: "10px"}}>Contact Info</p><br/>
-              {/* <p>{$website}<br/>{$email}</p> */}
+        </div>
+
+        <div className="col-md-3">
+          <div className="container mt-5">
+            {/* Map over the first two images and create image containers */}
+            <div className="image-column mb-4" style={imageContainerStyle}>
+              {firstFourImages.slice(0, 2).map((url, index) => (
+                <img
+                  key={index}
+                  src={url}
+                  className="img-fluid mb-3"
+                  alt={`Image ${index + 1}`}
+                  style={{ width: '90%' }}
+                />
+              ))}
             </div>
           </div>
         </div>
+
+        <div className="col-md-3">
+          <div className="container mt-5">
+            {/* Map over the next two images and create image containers */}
+            <div className="image-column mb-4" style={imageContainerStyle}>
+              {firstFourImages.slice(2, 4).map((url, index) => (
+                <img
+                  key={index}
+                  src={url}
+                  className="img-fluid mb-3"
+                  alt={`Image ${index + 3}`}
+                  style={{ width: '90%' }}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-3">
+          <div className="container" style={contactContainerStyle}>
+            <h3 style={{ margin: '10px' }}>Contact:</h3>
+            <a href={`mailto:${artist.email}`}>{artist.email}</a>
+            <p>{artist.website}</p>
+            <br />
+          </div>
+        </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-
-//   <div>
-//     <p>Name: {artist.name}</p>
-//     <p>Description: {artist.description}</p>
-//     <p>City: {artist.city}</p>
-//     <p>State: {artist.state}</p>
-//     <p>Genre: {artist.genre}</p> {/* Access the 'genre' field */}
-//     <p>Website: {artist.website}</p>
-//     <p>Email: {artist.email}</p>
-//     {/* Add more details as needed */}
-//   </div>
-    
-  
-  export default ProfilePage;
+export default ProfilePage;
