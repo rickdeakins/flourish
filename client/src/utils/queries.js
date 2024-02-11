@@ -13,6 +13,16 @@ query GenresWithArtists {
   }
   `;
  
+  export const QUERY_ALL_GENRES = gql`
+  query AllGenres {
+    allGenres {
+      _id
+      genre
+      genreId
+    }
+  }
+  `;
+  
   export const QUERY_SINGLE_ARTIST = gql`
   query GetArtistById($artistId: ID!) {
     artistById(artistId: $artistId) {

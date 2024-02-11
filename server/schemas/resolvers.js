@@ -12,6 +12,16 @@ const resolvers = {
           throw error;
         }
       },
+      allGenres: async () => {
+        try{
+          const allGenres = await Genre.find();
+          return allGenres;
+        }
+        catch (error) {
+          console.error(error);
+          throw error;
+        }
+      },
       artistById: async (_, { artistId }) => {
         try {
           const artist = await Artists.findById(artistId);
