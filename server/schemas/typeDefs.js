@@ -29,6 +29,7 @@ type Users {
   }
   type Query {
     genresWithArtists: [Genre]
+    allGenres: [Genre]
     artistById(artistId: ID!): Artists
     me: Users
   }
