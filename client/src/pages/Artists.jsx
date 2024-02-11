@@ -38,6 +38,21 @@ const imageContainerStyle = {
   marginTop: '100px',
 };
 
+const imageDisplayStyle = {
+  border: '3px solid'
+};
+
+const contactStyle = {
+  margin: '10px', 
+  padding: '10px',
+}
+
+const horizontalLineStyle = {
+  border: '0',
+    borderTop: '2px solid black',
+    margin: '1px 0',
+}
+
 const ProfilePage = () => {
   const { artistId } = useParams();
 
@@ -64,7 +79,8 @@ const ProfilePage = () => {
       <div className="row">
         <div className="col-md-3">
           <div className="container" style={artistContainerStyle}>
-            <h1 className="p-4">{artist.name}</h1>
+            <h3 className="p-4" style={{marginTop:'10px', marginBottom:'0'}}>{artist.name}</h3>
+            <hr style={horizontalLineStyle} />
             <p className="m-3 text-start">
               <b>Location:</b> {artist.city}, {artist.state}
             </p>
@@ -85,7 +101,7 @@ const ProfilePage = () => {
                   src={url}
                   className="img-fluid mb-3"
                   alt={`Image ${index + 1}`}
-                  style={{ width: '90%' }}
+                  style={imageDisplayStyle}
                 />
               ))}
             </div>
@@ -102,7 +118,7 @@ const ProfilePage = () => {
                   src={url}
                   className="img-fluid mb-3"
                   alt={`Image ${index + 3}`}
-                  style={{ width: '90%' }}
+                  style={imageDisplayStyle}
                 />
               ))}
             </div>
@@ -111,8 +127,9 @@ const ProfilePage = () => {
 
         <div className="col-md-3">
           <div className="container" style={contactContainerStyle}>
-            <h3 style={{ margin: '10px' }}>Contact:</h3>
-            <a href={`mailto:${artist.email}`}>{artist.email}</a>
+            <h3 style={contactStyle}>Contact:</h3>
+            <hr style={horizontalLineStyle} />
+            <a href={`mailto:${artist.email}`} >{artist.email}</a>
             <p>{artist.website}</p>
             <br />
           </div>

@@ -31,10 +31,23 @@ const ContactPage = () => {
     });
   };
 
+const containerStyle = {
+  height: 'auto',
+  marginTop: '105px',
+  marginBottom: '60px',
+  border: '0.5px solid gray',
+  borderRadius: '30px 30px 30px 30px',
+  width: '70%',
+  textColor: '#333333',
+  boxShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
+  textColor: '#333333',
+  backgroundColor: '#F2F2F2',
+  };
+
   return (
     <div>
-      <div className="container">
-        <h1>Contact Us</h1>
+      <div className="container" style={containerStyle}>
+        <h1 className='headingText' style={{marginTop: '20px', marginBottom: '2%'}}>Contact Us</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">Name</label>
@@ -48,7 +61,7 @@ const ContactPage = () => {
             <label htmlFor="message" className="form-label">Message</label>
             <textarea className="form-control" id="message" name="message" value={formData.message} onChange={handleChange} />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary" style={{marginBottom: '20px'}}>Submit</button>
         </form>
       </div>
     </div>
