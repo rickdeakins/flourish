@@ -1,19 +1,13 @@
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import App from './App.jsx'
+import App from './App.jsx';
 import Home from './pages/Home.jsx';
-// import Profiles from './pages/Profiles';
 import About from './pages/About';
 import Artists from './pages/Artists';
 import ErrorPage from './pages/Error';
-
-
+import ArtistsByGenre from './pages/ArtistsByGenre.jsx';
 import ContactPage from './pages/Contact.jsx';
-
-
 import './index.css';
-
 
 const router = createBrowserRouter([
   {
@@ -34,6 +28,10 @@ const router = createBrowserRouter([
         element: <Artists />
       },
       {
+        path: '/genre/:genreId', // Update the parameter name to match the ArtistsByGenre component
+        element: <ArtistsByGenre />
+      },
+      {
         path: '/about',
         element: <About />
       },
@@ -41,7 +39,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
-)
+);

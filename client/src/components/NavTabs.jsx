@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-function NavTabs() {
+function NavTabs({ isAuthenticated }) {
   const currentPage = useLocation().pathname;
 
   const genres = [
@@ -15,14 +15,18 @@ function NavTabs() {
   const [expandedGenres, setExpandedGenres] = useState({});
 
   const toggleGenre = (genreId) => {
-    setExpandedGenres(prevState => ({
+    setExpandedGenres((prevState) => ({
       ...prevState,
-      [genreId]: !prevState[genreId]
+      [genreId]: !prevState[genreId],
     }));
   };
 
   return (
-    <nav id="nav" className="position-absolute bottom-0 start-50 translate-middle-x" style={{ maxWidth: 'calc(100% - 120px)' }}>
+    <nav
+      id="nav"
+      className="position-absolute bottom-0 start-50 translate-middle-x"
+      style={{ maxWidth: 'calc(100% - 120px)' }}
+    >
       <ul className="nav nav-tabs flex-row">
         <li className="nav-item">
           <Link
@@ -43,23 +47,37 @@ function NavTabs() {
         <li className="nav-item">
           <Link
             to="/contact"
-            className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+            className={
+              currentPage === '/contact' ? 'nav-link active' : 'nav-link'
+            }
           >
             Contact
           </Link>
         </li>
 
-        {/* Dropdown for genres */}
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" onClick={() => toggleGenre('genres')} aria-expanded={expandedGenres['genres'] ? 'true' : 'false'}>
+        <li className={`nav-item dropdown ${isAuthenticated ? '' : 'd-none'}`}>
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            onClick={() => toggleGenre('genres')}
+            aria-expanded={expandedGenres['genres'] ? 'true' : 'false'}
+          >
             Genres
           </a>
-          <ul className={`dropdown-menu ${expandedGenres['genres'] ? 'show' : ''}`}>
-            {genres.map(genre => (
+          <ul
+            className={`dropdown-menu ${
+              expandedGenres['genres'] ? 'show' : ''
+            }`}
+          >
+            {genres.map((genre) => (
               <li key={genre.id}>
                 <Link
                   to={`/genre/${genre.id}`}
-                  className={currentPage === `/genre/${genre.id}` ? 'dropdown-item active' : 'dropdown-item'}
+                  className={
+                    currentPage === `/genre/${genre.id}`
+                      ? 'dropdown-item active'
+                      : 'dropdown-item'
+                  }
                   onClick={() => toggleGenre(genre.id)}
                 >
                   {genre.name}

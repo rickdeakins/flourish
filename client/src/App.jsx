@@ -11,7 +11,8 @@ import { Outlet } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
-import Nav from './components/NavTabs';
+import Auth from './utils/auth.js';
+
 
 
 // Construct our main GraphQL API endpoint
@@ -40,10 +41,11 @@ const client = new ApolloClient({
 
 
 function App() {
+  const isAuthenticated = Auth.loggedIn(); 
   return (
     <ApolloProvider client={client}>
       <div className="flex-column justify-flex-start min-100-vh">
-        <Header />  
+        <Header isAuthenticated={isAuthenticated} />  
         <div className="container">
           <Outlet />
         </div>

@@ -30,7 +30,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavTabs from './NavTabs';
 
-const Header = () => {
+const Header = ({ isAuthenticated }) => {
   return (
     <div>
       <header className="text-white py-1 fixed-top margin-right text-secondary" style={{ position: 'fixed', height: '120px', width: '100%', top: '0', left: '0', backgroundColor: '#F2F2F2', padding: '20px' }}>
@@ -38,7 +38,7 @@ const Header = () => {
           <div className="position-absolute" style={{ left: '80px', top: '15%' }}>
             <img src="/assets/logotemp.svg" alt="logo" style={{ width: '200px', height: 'auto' }} />
           </div>
-        <NavTabs />
+        <NavTabs isAuthenticated={isAuthenticated}/>
         </div>
       </header>
       <div style={{ marginTop: '1%' }}>
