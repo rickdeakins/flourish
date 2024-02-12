@@ -27,7 +27,7 @@ function NavTabs({ isAuthenticated }) {
       className="position-absolute bottom-0 start-50 translate-middle-x"
       style={{ maxWidth: 'calc(100% - 120px)' }}
     >
-      <ul className="nav nav-tabs flex-row">
+      <ul className="nav nav-tabs justify-content-center mt-20">
         <li className="nav-item">
           <Link
             to="/"
