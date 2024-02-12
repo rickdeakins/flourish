@@ -40,7 +40,6 @@ const containerStyle = {
   width: '70%',
   textColor: '#333333',
   boxShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
-  textColor: '#333333',
   backgroundColor: '#F2F2F2',
   };
 
