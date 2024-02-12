@@ -11,6 +11,7 @@ import { Outlet } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import Auth from './utils/auth.js';
 
 
 
@@ -40,10 +41,11 @@ const client = new ApolloClient({
 
 
 function App() {
+  const isAuthenticated = Auth.loggedIn(); 
   return (
     <ApolloProvider client={client}>
       <div className="flex-column justify-flex-start min-100-vh">
-        <Header />  
+        <Header isAuthenticated={isAuthenticated} />  
         <div className="container">
           <Outlet />
         </div>
