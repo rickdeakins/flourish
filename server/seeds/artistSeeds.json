@@ -61,7 +61,7 @@
   },
   {
     "name": "Chantelle Berry",
-    "description": "gggg",
+    "description": "Chantelle has always been captivated by art in some way.  A couple years ago after a chain of events, she walked away from her daytime job to pursue a career in painting.  She specifically likes to express herself with the use of watercolor.",
     "city": "Powell",
     "state": "Ohio",
     "images": ["../assets/art/Chantelle/Chan1.png", "../assets/art/Chantelle/Chan2.png", "../assets/art/Chantelle/Chan3.png", "../assets/art/Chantelle/Chan4.png"],
@@ -124,7 +124,7 @@
     "description": "Todd spent his childhood going from art exhibit to art exhibit. He found he was found a connection with the artists who depicted real life events.  As he became a father, he started to capture his life through his art.",
     "city": "Charlotte",
     "state": "North Carolina",
-    "images": ["../assets/art/", "../assets/art/", "../assets/art/", "../assets/art/"],
+    "images": ["../assets/art/Todd/Todd1.jpg", "../assets/art/Todd/Todd2.jpg", "../assets/art/Todd/Todd3.jpg", "../assets/art/Todd/Todd4.jpg"],
     "email": "jonestudio@yahoo.com",
     "genre": "Realism",
     "genreId": "5"
@@ -144,7 +144,7 @@
     "description": "Vincent Willem van Gogh was a post-Impressionist painter of Dutch origin whose work, notable for its rough beauty, emotional honesty and bold color, had a far-reaching influence on 20th-century art.",
     "city": "Zundert",
     "state": "Netherlands",
-    "images": ["../assets/art/Vincent1.jpg", "../assets/art/Vincent2.jpg", "../assets/art/Vincent3.jpg", "../assets/art/Vincent4.jpg"],
+    "images": ["../assets/art/Vincent/Vincent1.jpg", "../assets/art/Vincent/Vincent2.jpg", "../assets/art/Vincent/Vincent3.jpg", "../assets/art/Vincent/Vincent4.jpg"],
     "email": "Gogh@gmail.com", 
     "genre": "Impressionism",
     "genreId": "3"
@@ -164,7 +164,7 @@
     "description": "Archer paints from his photos he takes from his travels.  He found it was the best way to depict the images he sees in his life adventures.",
     "city": "Chicago",
     "state": "Illinois",
-    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
+    "images": ["../assets/art/Archer/Archer1.jpg","../assets/art/Archer/Archer2.jpg", "../assets/art/Archer/Archer3.jpg", "../assets/art/Archer/Archer4.jpg"],
     "email": "ArcherGreene@gmail.com",
     "genre": "Landscape",
     "genreId": "2"
@@ -174,7 +174,7 @@
     "description": "Anita learned to love art during her childhood travels to India.  She didn't have much to do on the airplane, but to draw.  As she grew older, she found other mediums even more interesting than the everyday crayon.",
     "city": "Houston",
     "state": "Texas",
-    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
+    "images": ["../assets/art/Anita/Anita1.jpg","../assets/art/Anita/Anita2.jpg", "../assets/art/Anita/Anita3.jpg", "../assets/art/Anita/Anita4.jpg"],
     "email": "AnitaSubu@gmail.com",
     "genre": "Landscape",
     "genreId": "2"
