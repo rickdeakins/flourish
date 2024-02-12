@@ -49,7 +49,7 @@ function NavTabs() {
           </Link>
         </li>
 
-        {/* Dropdown for genres */}
+     
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" onClick={() => toggleGenre('genres')} aria-expanded={expandedGenres['genres'] ? 'true' : 'false'}>
             Genres

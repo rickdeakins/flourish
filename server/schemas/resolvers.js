@@ -3,10 +3,10 @@ const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
-      genresWithArtists: async () => {
+      artistsByGenre: async (_, { genreId }) => {
         try {
-          const genresWithArtists = await Genre.find().populate('artists');
-          return genresWithArtists;
+          const artistsByGenre = await Genre.findOne({ genreId }).populate('artists');
+          return artistsByGenre?.artists || [];
         } catch (error) {
           console.error(error);
           throw error;

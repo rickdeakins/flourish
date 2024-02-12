@@ -12,7 +12,17 @@ query GenresWithArtists {
     }
   }
   `;
- 
+  export const QUERY_ARTISTS_BY_GENRE = gql`
+  query ArtistsByGenre($genreId: String!) {
+    artistsByGenre(genreId: $genreId) {
+      _id
+      name
+      genre
+      images
+    }
+  }
+`;
+
   export const QUERY_ALL_GENRES = gql`
   query AllGenres {
     allGenres {
