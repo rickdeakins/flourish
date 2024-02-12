@@ -43,7 +43,6 @@ const aboutContainerStyle = {
   borderRadius: '30px 30px 30px 30px',
   textColor: '#333333',
   boxShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
-  textColor: '#333333',
   backgroundColor: '#F2F2F2',
   };
 
@@ -61,8 +60,8 @@ const aboutContainerStyle = {
           style={aboutContainerStyle}
         >
           <h3 style={{marginTop: '10px'}}>Welcome to Flourish! </h3>
-          <p style={{ margin: '10px', textAlign: 'left' }}>
           <hr style={horizontalLineStyle} /> 
+          <p style={{ margin: '10px', textAlign: 'left' }}>
             <br />
             Flourish is a visual artist showcase where you can find a visual artist based on their genre of art.
           </p>
