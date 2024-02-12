@@ -90,5 +90,5 @@ function NavTabs({ isAuthenticated }) {
     </nav>
   );
 }
-
+ 
 export default NavTabs;
