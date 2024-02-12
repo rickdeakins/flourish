@@ -8,10 +8,7 @@ Pamela Agrast is also Halley Ween and Jean Ver Hulst.
 David Agrast (Pamela Agrast's husband) is also Julian Agrast.
 Sarah Leder is also Onion Runyon and Ashley Smith
 
-
-John Jacobs' images are from an artist named Steve Johnson.  You can access his work here:
-https://www.pexels.com/@steve/.
-
+Steve Johnson https://www.pexels.com/@steve/
 Quang Nguygen Vinh https://www.pexels.com/@quang-nguyen-vinh-222549/
 Jesse Zheng https://www.pexels.com/@jessef11/
 Lisa Fotios https://www.pexels.com/@fotios-photos/
