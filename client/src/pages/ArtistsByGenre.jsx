@@ -80,7 +80,7 @@ return (
             {artistsByGenre.map(artist => (
               <Col key={artist._id} md={6} className="mb-4">
                 <Card style={cardStyle}>
-                  <Card.Img variant="top" url={artist.images[0]} alt={artist.name} />
+                  <Card.Img variant="top" src={artist.images[0]} alt={artist.name} />
                   <Card.Body className="d-flex flex-column">
                     <Card.Title>{artist.name}</Card.Title>
                     <Button
