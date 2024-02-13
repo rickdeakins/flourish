@@ -1,5 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import footerLogo from '../../assets/misc/logotemp.svg';
+
 
 const Footer = () => {
 
@@ -8,7 +10,7 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <p>© 2024 <img src="/assets/logotemp.svg"  alt="logo" style={{ width: '70px', height: 'auto' }} /> | a visual artist showcase</p>
+            <p>© 2024 <img src={footerLogo}  alt="logo" style={{ width: '70px', height: 'auto' }} /> | a visual artist showcase</p>
           </div>
         </div>
       </div>
