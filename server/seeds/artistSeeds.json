@@ -4,7 +4,7 @@
     "description": "Sarah is an artist with using texture in paintings to showcase textures we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": ["/profiles/assets/art/sarah/sarah1.jpg","/profiles/assets/art/sarah/sarah2.jpg","/profiles/assets/art/sarah/sarah3.jpg", "/profiles/assets/art/sarah/sarah4.jpg"],
+    "images": ["./profiles/assets/art/sarah/sarah1.jpg","./profiles/assets/art/sarah/sarah2.jpg","./profiles/assets/art/sarah/sarah3.jpg", "./profiles/assets/art/sarah/sarah4.jpg"],
     "email": "Trinity16201@gmail.com",
     "genre": "Abstract",
     "genreId": "1"
