@@ -4,7 +4,7 @@
     "description": "Sarah is an artist with using texture in paintings to showcase textures we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": ["https://lh3.googleusercontent.com/pw/ABLVV84gRvw3vZS4HMg3_5x79q3Ofzir4Ky_473nn-I_gD5yE8upUBEoXcUCpqoFKAMwPRmKm60JJ7p6TT9T22dIH_IxZEP5jOqqF0PPBT4evEG895C2I1Qb=w2400"],
+    "images": ["https://lh3.googleusercontent.com/pw/ABLVV87ftUAf57hk0ryiCEQCN-auIxyg2-tpTviNWHJuibFGZpWcH7BdZT-UclStKJzTOvd5Yzu6GG3xKx3OjZCtpnKnEagcMn54yYDznAzO6GyOcmWxTVu1=w2400", "https://lh3.googleusercontent.com/pw/ABLVV86W3b5BazT9uqDaTK7zhFMH07dLgrMgQQ3rVEju03WCCV5L77v8rBrR21KHJrK6gwatkOnqzajrRjiwj_U8pVtVqZ9_7RUzarh1wVBnNlYi6pu7B5Qs=w2400", "https://lh3.googleusercontent.com/pw/ABLVV86Cn2Uy9QS9HvPV3woytUArloahdME_UKxT_wuwxwOIOvv5WXtHh85eEyjvTfCp3FATDvWYRp_gSS854VedFfyerEBi4BlWpqtVOJl_KU3sQJ_nQEyG=w2400","https://lh3.googleusercontent.com/pw/ABLVV85Eaw0wfdOLSbsxvcymEOyuqtwDCnFw4nyG5nrr_cNjToGPLOU8j4ddHZI0fZYhuxTs5e6UVpRIAG4vK3E_mdMwiwbhJCbfxbHHRfQjqMM5FlFwFCFc=w2400"],
     "email": "Trinity16201@gmail.com",
     "genre": "Abstract",
     "genreId": "1"
@@ -14,7 +14,7 @@
     "description": "Onion is an artist who enjoys using watercolor as her main medium for her pieces. Landscape and humor are her favorite variations.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": ["../assets/art/Onion/Onion5.jpg","../assets/art/Onion/Onion1.jpg", "../assets/art/Onion/Onion2.jpg", "../assets/art/Onion/Onion3.jpg"],
+    "images": ["https://lh3.googleusercontent.com/pw/ABLVV848HJ9QzEsVlu6aT05090RbdQzz5hOS57zOmHoSdpXBT5EGe53QICroB4rrdXQCBfWb6uj2ttif31N2D_eLj8-EjtRDrQg8hsHGwEIuoHli5YAE_SL6=w2400","https://lh3.googleusercontent.com/pw/ABLVV852bKVcoi3tnDIAueErCuBgmpmZVo89aOVjpHQqNgvFHCV5qjSVIskhFF9dI90cxSwM9cM62Wn5dLhDIzeSox-iBqEoIS0thC2M-cQiCDvwMKFCcrWS=w2400", "https://lh3.googleusercontent.com/pw/ABLVV86yDfx-2OEhwKVS724bobJXXGRrI7wUwTjN8G_6jRjNOKqPgYBG3fXjCxEF9qBIuxbbb-DddN-49PtzubHrJbMxfXP3a_hYx1ww1fhJVu5pBFmqpTLd=w2400", "https://lh3.googleusercontent.com/pw/ABLVV87RD5uL_MZyW3M0Ssp0Nr5IY49GCi7meDyHm4ta7eZC0HE0YINejiGMfZqQxZCGjFMfhNRQ0UISJrJhMJoXGfaYoSoU4FNFaa36E-U4Mw4vW50abIOr=w2400"],
     "email": "Onion16201@gmail.com",
     "genre": "Landscape",
     "genreId": "2"
@@ -24,7 +24,7 @@
     "description": "Hilary creates expressive pieces using various painting mediums. She is inspired by her family and friends as part of her center stage.",
     "city": "Columbus",
     "state": "Ohio",
-    "images": ["../assets/art/Hilary/Hilary1.png", "../assets/art/Hilary/Hilary2.jpg", "../assets/art/Hilary/Hilary3.jpg", "../assets/art/Hilary/Hilary4.jpg"],
+    "images": ["https://lh3.googleusercontent.com/pw/ABLVV85BTEpQs1sF7HmZg4apL6VSCe2S1Zi9AM5MmGVfyKyEk6G5CIwhaC3HfAvEk5mjFpdTE85wVytjs6UBnWW-3-i7-Xyk_0rXgguh8KNqueq3TlEnmBEO=w2400", "https://lh3.googleusercontent.com/pw/ABLVV85-qtWmSG8IAf_890laPzdqu91a_hFuTp0iz4KL9lfDQ8JQiedpssyU1QC4mGNCazta1mkRdzahYUBmYiAB6UOVemGGDaSaRZBwCCSktHpEKkpW76T7=w2400", "https://lh3.googleusercontent.com/pw/ABLVV85AIXI_2B2MKBUIDVROOjY8cS4A-xp44UeW-m0AVIeOjAk1nNhWCBXmA4g80rKjtlAujOu9nM6vQjAFrbBTaZN51nSp9pykm76Egz3EIwr6QIwmO3Vy=w2400", "https://lh3.googleusercontent.com/pw/ABLVV84ZPbAxDIRdnBxSay_9J7vxXaVsMAQW4OyUEG7ny9tYEAMrzpzO8QNGu6eyYZfizTqRfv71ytPsMlc2goVIJQJ4a-LnyMt-ffe-fVlRxWZgmFu2vvKB=w2400"],
     "email": "Hilary16201@gmail.com", 
     "genre": "Impressionism",
     "genreId": "3"
@@ -104,7 +104,7 @@
     "description": "Ashley loves to play with color and texts.  Her inspiration growing up was the author and illustrator, Eric Carle, who layers paper to create unique backgrounds.  From recreation, Ashley grew to create her own style of art.",
     "city": "San Diego",
     "state": "California",
-    "images": ["../assets/art/Sarah/Sarah5.jpg", "../assets/art/Sarah/Sarah6.jpg", "../assets/art/Sarah/Sarah7.jpg", "../assets/art/Sarah/Sarah8.jpg"],
+    "images": ["https://lh3.googleusercontent.com/pw/ABLVV87ZjnPwGkaxq4DYOPuCm1TeB5iBPZixCCCvNJBiUTm-Xvp03pYCqSncbGbYl5iu9V0DfVODOgxCmumPgqFdHLlf_MA5T5ZtSh9R0XB-XmpcDoQTdT8d=w2400", "https://lh3.googleusercontent.com/pw/ABLVV84Ljw-8LV5VITtxv2U9ZZ4dG10jNwOXKmfwYbZhXeA8_6Y4EyePCbn8bVTB8p5JjTgoxeytYCWSjFUN7kTc2ocmMS0ttu50oIuFhqlqNGkg68isBPyo=w2400", "https://lh3.googleusercontent.com/pw/ABLVV856LkLQNbztAbtuxx_q5fpwW-QdNJrnjsJGvAx5AFGvmRJ-2wJ-6hc2CVfy1cBxsJ44LZcroRQibgMapF2FAcmePS4Hyqpl0oYFR-MVXFjgDZmkufSt=w2400", "https://lh3.googleusercontent.com/pw/ABLVV84fa5tsMPg1vPWX066B_lLQ5tD24OPRpKOV8bTqzPe-RxQ88p_2Nodq9SCFPsamIoAVxqwYt9KdpFIMbceZnxLuO2t1BQYqi3JRryWzSV-hDn5lM-vL=w2400"],
     "email": "ashleyArt@yahoo.com",
     "genre": "Abstract",
     "genreId": "1"
