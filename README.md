@@ -1,12 +1,13 @@
 # flourish: A Visual Artist Showcase
 
 ## Table of Contents
-  - (About)[#About]
-  - (Overview)[#Overview]
-  - (License)[#License]
-  - (Documentation) [#Documentation]
-  - (Future Developments)[#Future Developments]
-  - (Links)[#Links]
+- (About)[#About]
+- (Overview)[#Overview]
+- (License)[#License]
+- (Documentation)[#Documentation]
+- (Comments from the Dev Team)[#Comments from the Dev Team]
+- (Future Developments)[#Future Developments]
+- (Links)[#Links]
 
 ## About
 Flourish is a visual artist showcase and profile application where you can find a visual artist based on their genre of art.
@@ -49,9 +50,6 @@ As a user at the home page, you will be prompted to create a username and passwo
 ###### Contact Page
 <img width="1435" alt="Screen Shot 2024-02-12 at 7 58 19 PM" src="https://github.com/rickdeakins/flourish/assets/141289243/f45dd6e1-3406-44ab-b875-ff3c105c4e7c">
 
-
-
-
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -63,20 +61,25 @@ For the sake of generating enough seed data, we created some fake portfolios.  E
  - Sarah Leder is also Onion Runyon and Ashley Smith
 
 Additional Artists Referenced in the Seeding Process:
-[Steve Johnson] (https://www.pexels.com/@steve/)
-[Quang Nguygen Vinh] (https://www.pexels.com/@quang-nguyen-vinh-222549/)
-[Jesse Zheng] (https://www.pexels.com/@jessef11/)
-[Lisa Fotios (https://www.pexels.com/@fotios-photos/)
+[Steve Johnson](https://www.pexels.com/@steve/)
+[Quang Nguygen Vinh](https://www.pexels.com/@quang-nguyen-vinh-222549/)
+[Jesse Zheng](https://www.pexels.com/@jessef11/)
+[Lisa Fotios](https://www.pexels.com/@fotios-photos/)
 Suzy Hazelwood  
-[Ian Panelo] (https://www.pexels.com/@ian-panelo/)
-[Alana Jordon] (https://pixabay.com/users/alanajordan-25247407/)
+[Ian Panelo](https://www.pexels.com/@ian-panelo/)
+[Alana Jordon](https://pixabay.com/users/alanajordan-25247407/)
 
 Additionally we used works by renown painter Claude Monet, Vincent van Gogh, and Edouard Manet.  Information and images were used from https://useum.org/.
 
+## Comments from the DevTeam
+In the early phase of planning and initial setup of the project, the team worked together in creating the basic framework of the app and coded as a team using a collaborative approach. Once the skeleton of the app was structured the group was able to separate concerns and focus on various components for continuous development to meet a specific deadline. While concerns were separated, the group was able to continue to collaborate on issues as they arose. During the deploy process there were issues with image links for which the approach of data storage was called into question. The group came together with addiitional resources to implement a solution.
+
 ## Future Developments
-Below are the future developmental plans mapped out for the application as 
-
-
+Below are the future developmental plans mapped out for the application as we move into the next phases of the projects: 
+- A search bar for users to search for an artist they have previously located
+- A further developed user dashboard where they have capabilities of storing their favorite artists
+- Expanded capability for additional images to render for each profile   
+- Artist Login and Dashboard to Manage the Profile
 
 ## Links
 [Deployed Application]()
