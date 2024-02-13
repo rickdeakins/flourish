@@ -1,7 +1,7 @@
 [
   {
     "name": "Sarah Leder",
-    "description": "Sarah is an artist with using texture in paintings to showcase textures we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
+    "description": "Sarah is an artist with using texture in paintings what we find throughout our daily lives. She enjoys using multiple different types of mediums while creating.",
     "city": "Columbus",
     "state": "Ohio",
     "images": ["https://lh3.googleusercontent.com/pw/ABLVV87ftUAf57hk0ryiCEQCN-auIxyg2-tpTviNWHJuibFGZpWcH7BdZT-UclStKJzTOvd5Yzu6GG3xKx3OjZCtpnKnEagcMn54yYDznAzO6GyOcmWxTVu1=w2400", "https://lh3.googleusercontent.com/pw/ABLVV86W3b5BazT9uqDaTK7zhFMH07dLgrMgQQ3rVEju03WCCV5L77v8rBrR21KHJrK6gwatkOnqzajrRjiwj_U8pVtVqZ9_7RUzarh1wVBnNlYi6pu7B5Qs=w2400", "https://lh3.googleusercontent.com/pw/ABLVV86Cn2Uy9QS9HvPV3woytUArloahdME_UKxT_wuwxwOIOvv5WXtHh85eEyjvTfCp3FATDvWYRp_gSS854VedFfyerEBi4BlWpqtVOJl_KU3sQJ_nQEyG=w2400","https://lh3.googleusercontent.com/pw/ABLVV85Eaw0wfdOLSbsxvcymEOyuqtwDCnFw4nyG5nrr_cNjToGPLOU8j4ddHZI0fZYhuxTs5e6UVpRIAG4vK3E_mdMwiwbhJCbfxbHHRfQjqMM5FlFwFCFc=w2400"],
@@ -176,16 +176,6 @@
     "state": "Texas",
     "images": ["../assets/art/Anita/Anita1.jpg","../assets/art/Anita/Anita2.jpg", "../assets/art/Anita/Anita3.jpg", "../assets/art/Anita/Anita4.jpg"],
     "email": "AnitaSubu@gmail.com",
-    "genre": "Landscape",
-    "genreId": "2"
-  },
-  {
-    "name": "Roger Reed",
-    "description": "Reed loves to look at all the colors and texture of a landscape.  He loves to explore the many colors in the sky to the textures of the vegetation",
-    "city": "Idaho Falls",
-    "state": "Idaho",
-    "images": ["../assets/art/","../assets/art/", "../assets/art/", "../assets/art/"],
-    "email": "RReed@yahoo.com",
     "genre": "Landscape",
     "genreId": "2"
   }
