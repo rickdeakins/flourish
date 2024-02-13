@@ -82,7 +82,7 @@ Below are the future developmental plans mapped out for the application as we mo
 - Artist Login and Dashboard to Manage the Profile
 
 ## Links
-[Deployed Application]()
+[Deployed Application](https://flourish-artist-showcase-85e5aca045e9.herokuapp.com/)
 [Github Repo](https://github.com/rickdeakins/flourish)
 
 ##### DevTeam:
